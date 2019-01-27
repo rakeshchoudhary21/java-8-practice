@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
+//Difference between a consumer and function is that a consumer doesnt return anything.
 public class ConsumersDemo {
 
     public static void singleConsumer(int x){

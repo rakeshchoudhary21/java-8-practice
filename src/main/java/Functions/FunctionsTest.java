@@ -12,6 +12,7 @@ class Test{
         this.name = name;
     }
 
+    //For this we could as well create a functional interface with just one method that takes a string and returns a string.
     public String applyFunc(Function<Test,String> function){
         return function.apply(this);
     }
